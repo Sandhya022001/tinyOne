@@ -1,0 +1,122 @@
+
+
+ /* ==============================
+  heroimage section css 
+  =================================*/
+
+
+.heroimg{
+   background-color:#fcdb00;
+   padding:72px 0 110px 0;
+}
+
+
+.navbar{
+	list-style:none;
+}
+.navbar li{
+	display:inline-block;
+	margin-right:36px;
+	min-width:112px;
+}
+   
+.navbar li:last-child{
+	margin-right:0px !important;
+	
+}
+.navbar a{
+	font-weight:bold;
+	font-size:22px;
+	color:#010101;
+	padding:0 18px;
+	display:inline-block;
+	text-transform:capitalize;
+}
+.inspire{
+	margin-top:70px;
+}
+.iconlist li{
+	 display:inline-block;
+	 margin-right:40px;
+ }
+ .iconlist a i{
+	 font-size:40px;
+	 color:#010101;
+
+ }
+ .navbar a:hover, .navbar:focus ,.navbar:active{
+	 font-weight:lighter;
+ }
+  .ipad{
+	 margin-left:18px;
+ }
+ 
+ /* ==============================
+  features section css 
+  =================================*/
+  
+ .features{
+	  padding:116px 0 76px 0;
+  }
+   .thumbnail {
+	   margin-bottom:88px;
+   }
+  .thumbIcon i {
+	  font-size:42px;
+  }
+  .thumbContent h3{
+	  font-size:22px;
+	  color:#010101;
+	  margin:8px;
+  }
+  
+/* ==============================
+  in touch section css 
+  =================================*/
+  .intouch {
+	  background-color:#010101;
+	  padding:94px 0 140px 0;
+  }
+  .intouch .pri-heading {
+	  color:#fcdb00;
+  }
+  .intouch .para{
+	  color:#898989;
+  }
+  .from-control{
+	  padding:20px 25px ;
+	  height:50px;
+	  border-radius:5px;
+	  width: calc(100% - 158px);
+  }
+  .btn-primary{
+	  background-color:#fcdb00;
+	  height:50px;
+	  padding:15px 35px;
+	  cursor:pointer;
+	  border-radius:5px;
+	  width:124px;
+	  margin-left:28px;
+  }
+  .from-control::placeholder{
+	  color:#898989;
+	  font-size:16px;
+  }
+ .form-group px-10{
+	  margin-left:10px;
+  }
+  .socialIcon li{
+	  display: inline-block;
+	  margin-right:30px;
+  }
+   .socialIcon li a {
+	   color:#fcdb00;
+   }
+   .socialIcon li i {
+	   font-size : 38px;
+   }
+   .footer li ,.footer li a{
+	   font-size : 16px;
+	   color:#fff;
+	   list-style:none;
+   }
